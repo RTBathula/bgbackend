@@ -36,7 +36,7 @@ module.exports = function(){
     app.use('/', require('./routes/twilio.js')());
 
     app.get('/', function(req, res, next){
-        res.send(200, 'bgbackend Service is up and running fine.');
+        res.send(200, 'bgBackend Service is up and running fine.');
     });
     
     return app;
