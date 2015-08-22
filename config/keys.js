@@ -1,5 +1,5 @@
 module.exports = {	
-	cors : ['http://localhost:1440'],
+	cors : ['http://localhost:1440','http://bullgrunt.com',,'http://www.bullgrunt.com'],
 	cloudboostKeys:{
 		appId:"bull99",
 		clientKey:"af8Ow0iegVFfWt35ENVLog=="
