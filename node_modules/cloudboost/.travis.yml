@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+            - "0.10"
+            - "0.12"
+            - "1.0"
+            - "1.8"
+            - "2.0"
+script: mocha-phantomjs -s webSecurityEnabled=false -s sslProtocol=sslv3 test/index.html

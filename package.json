@@ -1,0 +1,30 @@
+{
+  "name": "bgbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://hackerbay.visualstudio.com/DefaultCollection/_git/CbFrontendServices"
+  },
+  "author": "RTBathula",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "cloudboost": "^1.0.80",
+    "cors": "^2.7.1",
+    "cron": "^1.0.9",
+    "express": "^4.2.0",
+    "moment": "^2.10.6",
+    "otp.js": "^1.0.4",
+    "passcode": "^1.0.2",
+    "q": "^1.1.2",
+    "random-string": "^0.1.2",
+    "twilio": "^2.2.1",
+    "underscore": "^1.7.0"
+  }
+}
