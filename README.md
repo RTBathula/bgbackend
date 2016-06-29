@@ -1,5 +1,5 @@
-# LunaLights Backend
-The backend repo for Lunalights [Lunalights production](http://livilum.com)
+# LunaLights Device backend
+The device backend repo for Lunalights, where it handles the device REST request and queue webhooks.
 
 # Getting Started
 To run this repo, switch to development or staging or production  by setting "serverRunON" in server.js file
@@ -22,8 +22,10 @@ Run the backend by following command
 ``node server.js``
 
 ##Open in the browser
-Go to http://localhost:8001 in the browser to confirm backend is running
+Go to http://localhost:8002 in the browser to confirm backend is running
 
+#Configuration
+Add or remove keys for different services in keys/development.js, keys/staging.js, keys/production.js
 
 #LICENSE
 
